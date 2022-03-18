@@ -103,7 +103,7 @@ class AutoHtmlOne
             }
             // line 28
             str=rd.readLine();
-            wr.write("<meta property=\"og:image\" content=\"../assets/social/img/s-img-"+articleimg+".jpg\" />");
+            wr.write("<meta property=\"og:image\" content=\"https://finclubju.com/assets/social/img/s-img-"+articleimg+".jpg\" />");
             wr.newLine();
             // lines 29 to 32
             for(int i=29;i<=32;i++)
@@ -121,7 +121,7 @@ class AutoHtmlOne
             wr.newLine();
             // line 35
             str=rd.readLine();
-            wr.write("<meta name=\"twitter:image\" content=\"../assets/social/img/s-img-"+articleimg+".jpg\">");
+            wr.write("<meta name=\"twitter:image\" content=\"https://finclubju.com/assets/social/img/s-img-"+articleimg+".jpg\">");
             wr.newLine();
             // lines 36 to 97
             for(int i=36;i<=97;i++)
