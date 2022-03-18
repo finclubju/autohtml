@@ -50,7 +50,7 @@ class AutoHtmlOne
         String articleimg=b.readLine().toLowerCase().trim();
         System.out.println("default@AutoHtmlOne:~$ (11/11) Enter article topic tag name :");
         System.out.print("default@AutoHtmlOne:~$ "); 
-        String tagname=b.readLine().toLowerCase().trim();
+        String tagname=b.readLine().trim();
         System.out.println("default@AutoHtmlOne:~$ Press ENTER to continue. Enter EXIT to stop.");
         str=b.readLine().trim();
         b.close();
